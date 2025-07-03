@@ -1,0 +1,27 @@
+{
+	"name": "@uifoundry/linters",
+	"description": "A collection of linters for JS/TS projects.",
+	"version": "0.1.5",
+	"type": "commonjs",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ui-foundry/linters"
+	},
+	"homepage": "https://github.com/ui-foundry/linters#readme",
+	"license": "MIT",
+	"publishConfig": {
+		"access": "public"
+	},
+	"files": [
+		"src"
+	],
+	"exports": {
+		"./prettier": "./src/prettier.config.js",
+		"./commitlint": "./src/commitlint.config.js"
+	},
+	"peerDependencies": {
+		"@commitlint/cli": ">= 19",
+		"@commitlint/config-conventional": ">= 19",
+		"prettier": ">= 3"
+	}
+}
