@@ -1,7 +1,7 @@
 {
 	"name": "@uifoundry/linters",
 	"description": "A collection of linters for JS/TS projects.",
-	"version": "0.1.5",
+	"version": "0.1.6",
 	"type": "commonjs",
 	"repository": {
 		"type": "git",
